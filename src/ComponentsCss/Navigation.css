@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+nav {
+    @apply h-[70px] w-full border-[#182b42] border-b flex 
+}
