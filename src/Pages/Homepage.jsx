@@ -1,10 +1,13 @@
 import '../PagesCss/Homepage.css'
 import { Navigation } from '../Components/Navigation.jsx'
-
+import { Home } from '../Components/Home.jsx'
+ 
 function Homepage(){
     return(
-        <div className='h-full'>
+        <div className='h-screen '>
             <Navigation/>
+            <Home />
+            
         </div>
     )
 }
