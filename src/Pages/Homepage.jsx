@@ -5,7 +5,7 @@ import {Education} from '../Components/Education.jsx'
  
 function Homepage(){
     return(
-        <div className='h-screen '>
+        <div className='h-screen'>
             <Navigation/>
             <Home />
             <Education />
