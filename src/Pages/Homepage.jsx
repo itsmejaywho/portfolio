@@ -7,8 +7,7 @@ function Homepage(){
     return(
         <div className='h-screen'>
             <Navigation/>
-            <Home />
-            <Education />
+            <Home/>
             
         </div>
     )

@@ -1,5 +1,10 @@
 @import 'tailwindcss';
 
-nav {
-    @apply h-[70px] w-full border-[#182b42] border-b flex justify-between p-2
+nav { 
+    @apply h-20 w-full border-[#182b42] border-b flex justify-between p-2 gap-1 text-white min-w-[360px]
 }
+
+.left, .right{
+    @apply w-[50%] h-full  md:w-[25%]
+}
+
