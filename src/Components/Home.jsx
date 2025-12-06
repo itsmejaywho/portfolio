@@ -137,7 +137,7 @@ export function Home(){
                 </button>
 
                 <div className='h-[300px] w-full flex items-center justify-center md:hidden'>
-                    <div className="h-full w-[50%] sm:w-[40%]  sm:bg-red-400 clip-hexagon bg-[#2e3b4e] flex items-center justify-center ">
+                    <div className="h-full w-[70%] sm:w-[40%]  sm:bg-red-400 clip-hexagon bg-[#2e3b4e] flex items-center justify-center ">
                         <div className="h-[98%] w-[98%] clip-hexagon bg-[#2e3b4e] flex items-center justify-center overflow-hidden">
                             <img src={Me} alt="" className="h-full w-full object-cover"/>
                         </div>
