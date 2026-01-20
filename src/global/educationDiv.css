@@ -1,0 +1,89 @@
+.education-div-container {
+  position: relative;
+  overflow: visible;
+}
+
+/* Top Border */
+.border-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 20%;
+  background: linear-gradient(90deg, transparent, #fff, transparent);
+  animation: slideBorderTop 8s infinite linear;
+}
+
+/* Right Border */
+.border-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 20%;
+  background: linear-gradient(180deg, transparent, #fff, transparent);
+  animation: slideBorderRight 8s 2s infinite linear;
+}
+
+/* Bottom Border */
+.border-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  width: 20%;
+  background: linear-gradient(270deg, transparent, #fff, transparent);
+  animation: slideBorderBottom 8s 4s infinite linear;
+}
+
+/* Left Border */
+.border-left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 20%;
+  background: linear-gradient(360deg, transparent, #fff, transparent);
+  animation: slideBorderLeft 8s 6s infinite linear;
+}
+
+/* Top: moves left to right */
+@keyframes slideBorderTop {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: calc(100% - 20%);
+  }
+}
+
+/* Right: moves top to bottom */
+@keyframes slideBorderRight {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: calc(100% - 20%);
+  }
+}
+
+/* Bottom: moves right to left */
+@keyframes slideBorderBottom {
+  0% {
+    right: 0%;
+  }
+  100% {
+    right: calc(100% - 20%);
+  }
+}
+
+/* Left: moves bottom to top */
+@keyframes slideBorderLeft {
+  0% {
+    bottom: 0%;
+  }
+  100% {
+    bottom: calc(100% - 20%);
+  }
+}
+
